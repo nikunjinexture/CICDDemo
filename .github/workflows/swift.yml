@@ -1,0 +1,18 @@
+name: Swift
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+     # clones the repo from the github
+            - name: "Checkout iOS Repository"
+              uses: actions/checkout@v1
+            - name: Build
+              run: | 
+                  xcodebuild clean build -project CICDDemo.xcodeproj -scheme CICDDemo CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
