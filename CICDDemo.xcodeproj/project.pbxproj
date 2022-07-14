@@ -13,6 +13,7 @@
 		189A8891286F015300B5DDC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A888F286F015300B5DDC2 /* Main.storyboard */; };
 		189A8893286F015600B5DDC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A8892286F015600B5DDC2 /* Assets.xcassets */; };
 		189A8896286F015600B5DDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A8894286F015600B5DDC2 /* LaunchScreen.storyboard */; };
+		189A889F2880305900B5DDC2 /* Solana in Frameworks */ = {isa = PBXBuildFile; productRef = 189A889E2880305900B5DDC2 /* Solana */; };
 		4E795EE27FE391F0BBDD13FC /* Pods_CICDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC3440DA50B74B572471519 /* Pods_CICDDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189A889F2880305900B5DDC2 /* Solana in Frameworks */,
 				4E795EE27FE391F0BBDD13FC /* Pods_CICDDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +90,6 @@
 				C5D5389C4BDA304D2A381C6D /* Pods-CICDDemo.debug.xcconfig */,
 				DE7C4AA7DA1757E17B8E78D1 /* Pods-CICDDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -110,6 +111,9 @@
 			dependencies = (
 			);
 			name = CICDDemo;
+			packageProductDependencies = (
+				189A889E2880305900B5DDC2 /* Solana */,
+			);
 			productName = CICDDemo;
 			productReference = 189A8886286F015300B5DDC2 /* CICDDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 189A887D286F015300B5DDC2;
+			packageReferences = (
+				189A889D2880305900B5DDC2 /* XCRemoteSwiftPackageReference "Solana" */,
+			);
 			productRefGroup = 189A8887286F015300B5DDC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -433,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		189A889D2880305900B5DDC2 /* XCRemoteSwiftPackageReference "Solana" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ajamaica/Solana.Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		189A889E2880305900B5DDC2 /* Solana */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 189A889D2880305900B5DDC2 /* XCRemoteSwiftPackageReference "Solana" */;
+			productName = Solana;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 189A887E286F015300B5DDC2 /* Project object */;
 }
