@@ -2,7 +2,7 @@ name: Swift
 
 on:
   push:
-    branches: [ Main ]
+    branches: [ "main" ]
 
 jobs:
     buildiOS: #name of the job
