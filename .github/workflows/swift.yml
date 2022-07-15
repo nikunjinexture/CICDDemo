@@ -18,9 +18,9 @@ jobs:
             run: pod install
       
           - name: Run tests
-            run: xcodebuild clean build -workspace "uMoon.xcworkspace" -scheme "uMoon" -destination "platform=iOS Simulator,name=iPhone 13 Pro,OS=latest"
+            run: xcodebuild clean build -workspace "CICDDemo.xcworkspace" -scheme "CICDDemo" -destination "platform=iOS Simulator,name=iPhone 13 Pro,OS=latest"
           - name: Build App
-            run: xcodebuild -workspace "uMoon.xcworkspace" -scheme "uMoon" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
+            run: xcodebuild -workspace "CICDDemo.xcworkspace" -scheme "CICDDemo" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
 
               
             # creates keychain and
