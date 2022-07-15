@@ -9,5 +9,14 @@ target 'CICDDemo' do
 
   pod 'Alamofire'
 
+  pod 'RxAlamofire'
+
+  pod 'RxSwift'
+
+  pod 'RxDataSources'
+
+  pod 'KeychainSwift'
+
+  pod 'Kingfisher'
 
 end

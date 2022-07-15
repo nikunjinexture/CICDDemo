@@ -13,7 +13,56 @@
 		189A8891286F015300B5DDC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A888F286F015300B5DDC2 /* Main.storyboard */; };
 		189A8893286F015600B5DDC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A8892286F015600B5DDC2 /* Assets.xcassets */; };
 		189A8896286F015600B5DDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A8894286F015600B5DDC2 /* LaunchScreen.storyboard */; };
-		189A889F2880305900B5DDC2 /* Solana in Frameworks */ = {isa = PBXBuildFile; productRef = 189A889E2880305900B5DDC2 /* Solana */; };
+		18B467F128818B5E006D7E10 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4679C28818B5E006D7E10 /* SettingsViewModel.swift */; };
+		18B467F228818B5E006D7E10 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B4679E28818B5E006D7E10 /* SettingsViewController.xib */; };
+		18B467F328818B5E006D7E10 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4679F28818B5E006D7E10 /* SettingsViewController.swift */; };
+		18B467F428818B5E006D7E10 /* SettingsViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467A128818B5E006D7E10 /* SettingsViewCoordinator.swift */; };
+		18B467F528818B5E006D7E10 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467A328818B5E006D7E10 /* Coordinator.swift */; };
+		18B467F628818B5E006D7E10 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467A628818B5E006D7E10 /* StartViewModel.swift */; };
+		18B467F728818B5E006D7E10 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467A828818B5E006D7E10 /* StartViewController.xib */; };
+		18B467F828818B5E006D7E10 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467A928818B5E006D7E10 /* StartViewController.swift */; };
+		18B467F928818B5E006D7E10 /* StartViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467AB28818B5E006D7E10 /* StartViewCoordinator.swift */; };
+		18B467FA28818B5E006D7E10 /* CreateWalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467AE28818B5E006D7E10 /* CreateWalletViewModel.swift */; };
+		18B467FB28818B5E006D7E10 /* CreateWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467B028818B5E006D7E10 /* CreateWalletViewController.swift */; };
+		18B467FC28818B5E006D7E10 /* SeedPhaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467B228818B5E006D7E10 /* SeedPhaseCollectionViewCell.swift */; };
+		18B467FD28818B5E006D7E10 /* SeedPhaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467B328818B5E006D7E10 /* SeedPhaseCollectionViewCell.xib */; };
+		18B467FE28818B5E006D7E10 /* CreateWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467B428818B5E006D7E10 /* CreateWalletViewController.xib */; };
+		18B467FF28818B5E006D7E10 /* CreateWalletCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467B628818B5E006D7E10 /* CreateWalletCoordinator.swift */; };
+		18B4680028818B5E006D7E10 /* KeychainStorageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467B728818B5E006D7E10 /* KeychainStorageData.swift */; };
+		18B4680128818B5E006D7E10 /* TokenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467BA28818B5E006D7E10 /* TokenExtensions.swift */; };
+		18B4680228818B5E006D7E10 /* WalletNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467BB28818B5E006D7E10 /* WalletNew.swift */; };
+		18B4680328818B5E006D7E10 /* SolanaTokenAccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467BC28818B5E006D7E10 /* SolanaTokenAccountBalance.swift */; };
+		18B4680428818B5E006D7E10 /* TokensList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467BD28818B5E006D7E10 /* TokensList.swift */; };
+		18B4680528818B5E006D7E10 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467BE28818B5E006D7E10 /* Token.swift */; };
+		18B4680628818B5E006D7E10 /* TokenTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467BF28818B5E006D7E10 /* TokenTag.swift */; };
+		18B4680728818B5E006D7E10 /* SolanaModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467C028818B5E006D7E10 /* SolanaModule.swift */; };
+		18B4680828818B5E006D7E10 /* SeedPhraseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467C228818B5E006D7E10 /* SeedPhraseGenerator.swift */; };
+		18B4680928818B5E006D7E10 /* UpsellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467C528818B5E006D7E10 /* UpsellViewModel.swift */; };
+		18B4680A28818B5E006D7E10 /* UpsellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467C728818B5E006D7E10 /* UpsellViewController.swift */; };
+		18B4680B28818B5E006D7E10 /* UpsellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467C828818B5E006D7E10 /* UpsellViewController.xib */; };
+		18B4680C28818B5E006D7E10 /* UpsellViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467CA28818B5E006D7E10 /* UpsellViewCoordinator.swift */; };
+		18B4680D28818B5E006D7E10 /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467CD28818B5E006D7E10 /* WalletViewModel.swift */; };
+		18B4680E28818B5E006D7E10 /* WalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467CF28818B5E006D7E10 /* WalletViewController.xib */; };
+		18B4680F28818B5E006D7E10 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467D128818B5E006D7E10 /* FooterView.swift */; };
+		18B4681028818B5E006D7E10 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467D228818B5E006D7E10 /* FooterView.xib */; };
+		18B4681128818B5E006D7E10 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467D328818B5E006D7E10 /* WalletViewController.swift */; };
+		18B4681228818B5E006D7E10 /* NftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467D528818B5E006D7E10 /* NftTableViewCell.swift */; };
+		18B4681328818B5E006D7E10 /* NftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467D628818B5E006D7E10 /* NftTableViewCell.xib */; };
+		18B4681428818B5E006D7E10 /* WalletTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467D828818B5E006D7E10 /* WalletTableViewCell.xib */; };
+		18B4681528818B5E006D7E10 /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467D928818B5E006D7E10 /* WalletTableViewCell.swift */; };
+		18B4681628818B5E006D7E10 /* WalletHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467DB28818B5E006D7E10 /* WalletHeaderView.swift */; };
+		18B4681728818B5E006D7E10 /* WalletHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467DC28818B5E006D7E10 /* WalletHeaderView.xib */; };
+		18B4681828818B5E006D7E10 /* WalletCoordinatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467DE28818B5E006D7E10 /* WalletCoordinatior.swift */; };
+		18B4681928818B5E006D7E10 /* TokenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467E128818B5E006D7E10 /* TokenViewModel.swift */; };
+		18B4681A28818B5E006D7E10 /* TokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467E328818B5E006D7E10 /* TokenViewController.swift */; };
+		18B4681B28818B5E006D7E10 /* TokenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467E428818B5E006D7E10 /* TokenViewController.xib */; };
+		18B4681C28818B5E006D7E10 /* TokenViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467E628818B5E006D7E10 /* TokenViewCoordinator.swift */; };
+		18B4681D28818B5E006D7E10 /* RestoreWalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467E928818B5E006D7E10 /* RestoreWalletViewModel.swift */; };
+		18B4681E28818B5E006D7E10 /* RestoreWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B467EB28818B5E006D7E10 /* RestoreWalletViewController.xib */; };
+		18B4681F28818B5E006D7E10 /* RestoreWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467EC28818B5E006D7E10 /* RestoreWalletViewController.swift */; };
+		18B4682028818B5E006D7E10 /* RestoreWalletCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467EE28818B5E006D7E10 /* RestoreWalletCoordinator.swift */; };
+		18B4682128818B5E006D7E10 /* KeychainAccountStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B467F028818B5E006D7E10 /* KeychainAccountStorage.swift */; };
+		18B4682428818B83006D7E10 /* Solana in Frameworks */ = {isa = PBXBuildFile; productRef = 18B4682328818B83006D7E10 /* Solana */; };
 		4E795EE27FE391F0BBDD13FC /* Pods_CICDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC3440DA50B74B572471519 /* Pods_CICDDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +75,55 @@
 		189A8892286F015600B5DDC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189A8895286F015600B5DDC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189A8897286F015600B5DDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B4679C28818B5E006D7E10 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		18B4679E28818B5E006D7E10 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		18B4679F28818B5E006D7E10 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		18B467A128818B5E006D7E10 /* SettingsViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewCoordinator.swift; sourceTree = "<group>"; };
+		18B467A328818B5E006D7E10 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		18B467A628818B5E006D7E10 /* StartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		18B467A828818B5E006D7E10 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		18B467A928818B5E006D7E10 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		18B467AB28818B5E006D7E10 /* StartViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewCoordinator.swift; sourceTree = "<group>"; };
+		18B467AE28818B5E006D7E10 /* CreateWalletViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWalletViewModel.swift; sourceTree = "<group>"; };
+		18B467B028818B5E006D7E10 /* CreateWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWalletViewController.swift; sourceTree = "<group>"; };
+		18B467B228818B5E006D7E10 /* SeedPhaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeedPhaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		18B467B328818B5E006D7E10 /* SeedPhaseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeedPhaseCollectionViewCell.xib; sourceTree = "<group>"; };
+		18B467B428818B5E006D7E10 /* CreateWalletViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateWalletViewController.xib; sourceTree = "<group>"; };
+		18B467B628818B5E006D7E10 /* CreateWalletCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWalletCoordinator.swift; sourceTree = "<group>"; };
+		18B467B728818B5E006D7E10 /* KeychainStorageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainStorageData.swift; sourceTree = "<group>"; };
+		18B467BA28818B5E006D7E10 /* TokenExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenExtensions.swift; sourceTree = "<group>"; };
+		18B467BB28818B5E006D7E10 /* WalletNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletNew.swift; sourceTree = "<group>"; };
+		18B467BC28818B5E006D7E10 /* SolanaTokenAccountBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolanaTokenAccountBalance.swift; sourceTree = "<group>"; };
+		18B467BD28818B5E006D7E10 /* TokensList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokensList.swift; sourceTree = "<group>"; };
+		18B467BE28818B5E006D7E10 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		18B467BF28818B5E006D7E10 /* TokenTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenTag.swift; sourceTree = "<group>"; };
+		18B467C028818B5E006D7E10 /* SolanaModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolanaModule.swift; sourceTree = "<group>"; };
+		18B467C228818B5E006D7E10 /* SeedPhraseGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeedPhraseGenerator.swift; sourceTree = "<group>"; };
+		18B467C528818B5E006D7E10 /* UpsellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpsellViewModel.swift; sourceTree = "<group>"; };
+		18B467C728818B5E006D7E10 /* UpsellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpsellViewController.swift; sourceTree = "<group>"; };
+		18B467C828818B5E006D7E10 /* UpsellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpsellViewController.xib; sourceTree = "<group>"; };
+		18B467CA28818B5E006D7E10 /* UpsellViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpsellViewCoordinator.swift; sourceTree = "<group>"; };
+		18B467CD28818B5E006D7E10 /* WalletViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
+		18B467CF28818B5E006D7E10 /* WalletViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletViewController.xib; sourceTree = "<group>"; };
+		18B467D128818B5E006D7E10 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		18B467D228818B5E006D7E10 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		18B467D328818B5E006D7E10 /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		18B467D528818B5E006D7E10 /* NftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NftTableViewCell.swift; sourceTree = "<group>"; };
+		18B467D628818B5E006D7E10 /* NftTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NftTableViewCell.xib; sourceTree = "<group>"; };
+		18B467D828818B5E006D7E10 /* WalletTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletTableViewCell.xib; sourceTree = "<group>"; };
+		18B467D928818B5E006D7E10 /* WalletTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		18B467DB28818B5E006D7E10 /* WalletHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletHeaderView.swift; sourceTree = "<group>"; };
+		18B467DC28818B5E006D7E10 /* WalletHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletHeaderView.xib; sourceTree = "<group>"; };
+		18B467DE28818B5E006D7E10 /* WalletCoordinatior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletCoordinatior.swift; sourceTree = "<group>"; };
+		18B467E128818B5E006D7E10 /* TokenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenViewModel.swift; sourceTree = "<group>"; };
+		18B467E328818B5E006D7E10 /* TokenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenViewController.swift; sourceTree = "<group>"; };
+		18B467E428818B5E006D7E10 /* TokenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokenViewController.xib; sourceTree = "<group>"; };
+		18B467E628818B5E006D7E10 /* TokenViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenViewCoordinator.swift; sourceTree = "<group>"; };
+		18B467E928818B5E006D7E10 /* RestoreWalletViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreWalletViewModel.swift; sourceTree = "<group>"; };
+		18B467EB28818B5E006D7E10 /* RestoreWalletViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestoreWalletViewController.xib; sourceTree = "<group>"; };
+		18B467EC28818B5E006D7E10 /* RestoreWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreWalletViewController.swift; sourceTree = "<group>"; };
+		18B467EE28818B5E006D7E10 /* RestoreWalletCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreWalletCoordinator.swift; sourceTree = "<group>"; };
+		18B467F028818B5E006D7E10 /* KeychainAccountStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainAccountStorage.swift; sourceTree = "<group>"; };
 		2CC3440DA50B74B572471519 /* Pods_CICDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D5389C4BDA304D2A381C6D /* Pods-CICDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDDemo.debug.xcconfig"; path = "Target Support Files/Pods-CICDDemo/Pods-CICDDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DE7C4AA7DA1757E17B8E78D1 /* Pods-CICDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDDemo.release.xcconfig"; path = "Target Support Files/Pods-CICDDemo/Pods-CICDDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -36,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189A889F2880305900B5DDC2 /* Solana in Frameworks */,
+				18B4682428818B83006D7E10 /* Solana in Frameworks */,
 				4E795EE27FE391F0BBDD13FC /* Pods_CICDDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +171,7 @@
 		189A8888286F015300B5DDC2 /* CICDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18B4679928818B5E006D7E10 /* SolanaCustomClasses */,
 				189A8889286F015300B5DDC2 /* AppDelegate.swift */,
 				189A888B286F015300B5DDC2 /* SceneDelegate.swift */,
 				189A888D286F015300B5DDC2 /* ViewController.swift */,
@@ -82,6 +181,366 @@
 				189A8897286F015600B5DDC2 /* Info.plist */,
 			);
 			path = CICDDemo;
+			sourceTree = "<group>";
+		};
+		18B4679928818B5E006D7E10 /* SolanaCustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				18B4679A28818B5E006D7E10 /* Settings */,
+				18B467A228818B5E006D7E10 /* Coordinators */,
+				18B467A428818B5E006D7E10 /* StartView */,
+				18B467AC28818B5E006D7E10 /* CreateWallet */,
+				18B467B728818B5E006D7E10 /* KeychainStorageData.swift */,
+				18B467B828818B5E006D7E10 /* SolanaModule */,
+				18B467C128818B5E006D7E10 /* SeedPhraseGenerator */,
+				18B467C328818B5E006D7E10 /* UpsellView */,
+				18B467CB28818B5E006D7E10 /* Wallet */,
+				18B467DF28818B5E006D7E10 /* TokenView */,
+				18B467E728818B5E006D7E10 /* RestoreWallet */,
+				18B467EF28818B5E006D7E10 /* KeychainAccountStorage */,
+			);
+			path = SolanaCustomClasses;
+			sourceTree = "<group>";
+		};
+		18B4679A28818B5E006D7E10 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				18B4679B28818B5E006D7E10 /* ViewModel */,
+				18B4679D28818B5E006D7E10 /* UI */,
+				18B467A028818B5E006D7E10 /* Navigation */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		18B4679B28818B5E006D7E10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B4679C28818B5E006D7E10 /* SettingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B4679D28818B5E006D7E10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18B4679E28818B5E006D7E10 /* SettingsViewController.xib */,
+				18B4679F28818B5E006D7E10 /* SettingsViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18B467A028818B5E006D7E10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				18B467A128818B5E006D7E10 /* SettingsViewCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		18B467A228818B5E006D7E10 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				18B467A328818B5E006D7E10 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		18B467A428818B5E006D7E10 /* StartView */ = {
+			isa = PBXGroup;
+			children = (
+				18B467A528818B5E006D7E10 /* ViewModel */,
+				18B467A728818B5E006D7E10 /* UI */,
+				18B467AA28818B5E006D7E10 /* Navigation */,
+			);
+			path = StartView;
+			sourceTree = "<group>";
+		};
+		18B467A528818B5E006D7E10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B467A628818B5E006D7E10 /* StartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B467A728818B5E006D7E10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18B467A828818B5E006D7E10 /* StartViewController.xib */,
+				18B467A928818B5E006D7E10 /* StartViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18B467AA28818B5E006D7E10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				18B467AB28818B5E006D7E10 /* StartViewCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		18B467AC28818B5E006D7E10 /* CreateWallet */ = {
+			isa = PBXGroup;
+			children = (
+				18B467AD28818B5E006D7E10 /* ViewModel */,
+				18B467AF28818B5E006D7E10 /* UI */,
+				18B467B528818B5E006D7E10 /* Navigation */,
+			);
+			path = CreateWallet;
+			sourceTree = "<group>";
+		};
+		18B467AD28818B5E006D7E10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B467AE28818B5E006D7E10 /* CreateWalletViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B467AF28818B5E006D7E10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18B467B028818B5E006D7E10 /* CreateWalletViewController.swift */,
+				18B467B128818B5E006D7E10 /* SeedPhaseCollectionViewCell */,
+				18B467B428818B5E006D7E10 /* CreateWalletViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18B467B128818B5E006D7E10 /* SeedPhaseCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18B467B228818B5E006D7E10 /* SeedPhaseCollectionViewCell.swift */,
+				18B467B328818B5E006D7E10 /* SeedPhaseCollectionViewCell.xib */,
+			);
+			path = SeedPhaseCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		18B467B528818B5E006D7E10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				18B467B628818B5E006D7E10 /* CreateWalletCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		18B467B828818B5E006D7E10 /* SolanaModule */ = {
+			isa = PBXGroup;
+			children = (
+				18B467B928818B5E006D7E10 /* Models */,
+				18B467C028818B5E006D7E10 /* SolanaModule.swift */,
+			);
+			path = SolanaModule;
+			sourceTree = "<group>";
+		};
+		18B467B928818B5E006D7E10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18B467BA28818B5E006D7E10 /* TokenExtensions.swift */,
+				18B467BB28818B5E006D7E10 /* WalletNew.swift */,
+				18B467BC28818B5E006D7E10 /* SolanaTokenAccountBalance.swift */,
+				18B467BD28818B5E006D7E10 /* TokensList.swift */,
+				18B467BE28818B5E006D7E10 /* Token.swift */,
+				18B467BF28818B5E006D7E10 /* TokenTag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18B467C128818B5E006D7E10 /* SeedPhraseGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				18B467C228818B5E006D7E10 /* SeedPhraseGenerator.swift */,
+			);
+			path = SeedPhraseGenerator;
+			sourceTree = "<group>";
+		};
+		18B467C328818B5E006D7E10 /* UpsellView */ = {
+			isa = PBXGroup;
+			children = (
+				18B467C428818B5E006D7E10 /* ViewModel */,
+				18B467C628818B5E006D7E10 /* UI */,
+				18B467C928818B5E006D7E10 /* Navigation */,
+			);
+			path = UpsellView;
+			sourceTree = "<group>";
+		};
+		18B467C428818B5E006D7E10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B467C528818B5E006D7E10 /* UpsellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B467C628818B5E006D7E10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18B467C728818B5E006D7E10 /* UpsellViewController.swift */,
+				18B467C828818B5E006D7E10 /* UpsellViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18B467C928818B5E006D7E10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				18B467CA28818B5E006D7E10 /* UpsellViewCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		18B467CB28818B5E006D7E10 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				18B467CC28818B5E006D7E10 /* ViewModel */,
+				18B467CE28818B5E006D7E10 /* UI */,
+				18B467DD28818B5E006D7E10 /* Navigation */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		18B467CC28818B5E006D7E10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B467CD28818B5E006D7E10 /* WalletViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B467CE28818B5E006D7E10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18B467CF28818B5E006D7E10 /* WalletViewController.xib */,
+				18B467D028818B5E006D7E10 /* Footer */,
+				18B467D328818B5E006D7E10 /* WalletViewController.swift */,
+				18B467D428818B5E006D7E10 /* NFTCell */,
+				18B467D728818B5E006D7E10 /* WalletCell */,
+				18B467DA28818B5E006D7E10 /* Header */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18B467D028818B5E006D7E10 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				18B467D128818B5E006D7E10 /* FooterView.swift */,
+				18B467D228818B5E006D7E10 /* FooterView.xib */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		18B467D428818B5E006D7E10 /* NFTCell */ = {
+			isa = PBXGroup;
+			children = (
+				18B467D528818B5E006D7E10 /* NftTableViewCell.swift */,
+				18B467D628818B5E006D7E10 /* NftTableViewCell.xib */,
+			);
+			path = NFTCell;
+			sourceTree = "<group>";
+		};
+		18B467D728818B5E006D7E10 /* WalletCell */ = {
+			isa = PBXGroup;
+			children = (
+				18B467D828818B5E006D7E10 /* WalletTableViewCell.xib */,
+				18B467D928818B5E006D7E10 /* WalletTableViewCell.swift */,
+			);
+			path = WalletCell;
+			sourceTree = "<group>";
+		};
+		18B467DA28818B5E006D7E10 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				18B467DB28818B5E006D7E10 /* WalletHeaderView.swift */,
+				18B467DC28818B5E006D7E10 /* WalletHeaderView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		18B467DD28818B5E006D7E10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				18B467DE28818B5E006D7E10 /* WalletCoordinatior.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		18B467DF28818B5E006D7E10 /* TokenView */ = {
+			isa = PBXGroup;
+			children = (
+				18B467E028818B5E006D7E10 /* ViewModel */,
+				18B467E228818B5E006D7E10 /* UI */,
+				18B467E528818B5E006D7E10 /* Navigation */,
+			);
+			path = TokenView;
+			sourceTree = "<group>";
+		};
+		18B467E028818B5E006D7E10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B467E128818B5E006D7E10 /* TokenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B467E228818B5E006D7E10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18B467E328818B5E006D7E10 /* TokenViewController.swift */,
+				18B467E428818B5E006D7E10 /* TokenViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18B467E528818B5E006D7E10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				18B467E628818B5E006D7E10 /* TokenViewCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		18B467E728818B5E006D7E10 /* RestoreWallet */ = {
+			isa = PBXGroup;
+			children = (
+				18B467E828818B5E006D7E10 /* ViewModel */,
+				18B467EA28818B5E006D7E10 /* UI */,
+				18B467ED28818B5E006D7E10 /* Navigation */,
+			);
+			path = RestoreWallet;
+			sourceTree = "<group>";
+		};
+		18B467E828818B5E006D7E10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B467E928818B5E006D7E10 /* RestoreWalletViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B467EA28818B5E006D7E10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18B467EB28818B5E006D7E10 /* RestoreWalletViewController.xib */,
+				18B467EC28818B5E006D7E10 /* RestoreWalletViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18B467ED28818B5E006D7E10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				18B467EE28818B5E006D7E10 /* RestoreWalletCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		18B467EF28818B5E006D7E10 /* KeychainAccountStorage */ = {
+			isa = PBXGroup;
+			children = (
+				18B467F028818B5E006D7E10 /* KeychainAccountStorage.swift */,
+			);
+			path = KeychainAccountStorage;
 			sourceTree = "<group>";
 		};
 		5E3640A5975F9C1DBFD871FB /* Pods */ = {
@@ -112,7 +571,7 @@
 			);
 			name = CICDDemo;
 			packageProductDependencies = (
-				189A889E2880305900B5DDC2 /* Solana */,
+				18B4682328818B83006D7E10 /* Solana */,
 			);
 			productName = CICDDemo;
 			productReference = 189A8886286F015300B5DDC2 /* CICDDemo.app */;
@@ -143,7 +602,7 @@
 			);
 			mainGroup = 189A887D286F015300B5DDC2;
 			packageReferences = (
-				189A889D2880305900B5DDC2 /* XCRemoteSwiftPackageReference "Solana" */,
+				18B4682228818B83006D7E10 /* XCRemoteSwiftPackageReference "Solana" */,
 			);
 			productRefGroup = 189A8887286F015300B5DDC2 /* Products */;
 			projectDirPath = "";
@@ -159,9 +618,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B4681428818B5E006D7E10 /* WalletTableViewCell.xib in Resources */,
+				18B4681E28818B5E006D7E10 /* RestoreWalletViewController.xib in Resources */,
 				189A8896286F015600B5DDC2 /* LaunchScreen.storyboard in Resources */,
+				18B467FE28818B5E006D7E10 /* CreateWalletViewController.xib in Resources */,
+				18B467FD28818B5E006D7E10 /* SeedPhaseCollectionViewCell.xib in Resources */,
+				18B4681028818B5E006D7E10 /* FooterView.xib in Resources */,
 				189A8893286F015600B5DDC2 /* Assets.xcassets in Resources */,
 				189A8891286F015300B5DDC2 /* Main.storyboard in Resources */,
+				18B4680E28818B5E006D7E10 /* WalletViewController.xib in Resources */,
+				18B4681B28818B5E006D7E10 /* TokenViewController.xib in Resources */,
+				18B4680B28818B5E006D7E10 /* UpsellViewController.xib in Resources */,
+				18B467F228818B5E006D7E10 /* SettingsViewController.xib in Resources */,
+				18B4681728818B5E006D7E10 /* WalletHeaderView.xib in Resources */,
+				18B4681328818B5E006D7E10 /* NftTableViewCell.xib in Resources */,
+				18B467F728818B5E006D7E10 /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +685,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B4681928818B5E006D7E10 /* TokenViewModel.swift in Sources */,
+				18B4680628818B5E006D7E10 /* TokenTag.swift in Sources */,
+				18B4681F28818B5E006D7E10 /* RestoreWalletViewController.swift in Sources */,
+				18B4680F28818B5E006D7E10 /* FooterView.swift in Sources */,
+				18B467F428818B5E006D7E10 /* SettingsViewCoordinator.swift in Sources */,
+				18B4682128818B5E006D7E10 /* KeychainAccountStorage.swift in Sources */,
+				18B4680128818B5E006D7E10 /* TokenExtensions.swift in Sources */,
+				18B4681C28818B5E006D7E10 /* TokenViewCoordinator.swift in Sources */,
+				18B467FC28818B5E006D7E10 /* SeedPhaseCollectionViewCell.swift in Sources */,
+				18B4680A28818B5E006D7E10 /* UpsellViewController.swift in Sources */,
+				18B467F628818B5E006D7E10 /* StartViewModel.swift in Sources */,
+				18B4681528818B5E006D7E10 /* WalletTableViewCell.swift in Sources */,
+				18B4680D28818B5E006D7E10 /* WalletViewModel.swift in Sources */,
 				189A888E286F015300B5DDC2 /* ViewController.swift in Sources */,
 				189A888A286F015300B5DDC2 /* AppDelegate.swift in Sources */,
+				18B4681228818B5E006D7E10 /* NftTableViewCell.swift in Sources */,
+				18B4680728818B5E006D7E10 /* SolanaModule.swift in Sources */,
+				18B4681D28818B5E006D7E10 /* RestoreWalletViewModel.swift in Sources */,
+				18B4682028818B5E006D7E10 /* RestoreWalletCoordinator.swift in Sources */,
+				18B4680328818B5E006D7E10 /* SolanaTokenAccountBalance.swift in Sources */,
+				18B4680428818B5E006D7E10 /* TokensList.swift in Sources */,
+				18B467F928818B5E006D7E10 /* StartViewCoordinator.swift in Sources */,
+				18B4681A28818B5E006D7E10 /* TokenViewController.swift in Sources */,
+				18B4681828818B5E006D7E10 /* WalletCoordinatior.swift in Sources */,
 				189A888C286F015300B5DDC2 /* SceneDelegate.swift in Sources */,
+				18B4680028818B5E006D7E10 /* KeychainStorageData.swift in Sources */,
+				18B4680C28818B5E006D7E10 /* UpsellViewCoordinator.swift in Sources */,
+				18B4680528818B5E006D7E10 /* Token.swift in Sources */,
+				18B467FB28818B5E006D7E10 /* CreateWalletViewController.swift in Sources */,
+				18B4680828818B5E006D7E10 /* SeedPhraseGenerator.swift in Sources */,
+				18B4680228818B5E006D7E10 /* WalletNew.swift in Sources */,
+				18B4680928818B5E006D7E10 /* UpsellViewModel.swift in Sources */,
+				18B467F828818B5E006D7E10 /* StartViewController.swift in Sources */,
+				18B4681128818B5E006D7E10 /* WalletViewController.swift in Sources */,
+				18B467F328818B5E006D7E10 /* SettingsViewController.swift in Sources */,
+				18B467F128818B5E006D7E10 /* SettingsViewModel.swift in Sources */,
+				18B467F528818B5E006D7E10 /* Coordinator.swift in Sources */,
+				18B467FA28818B5E006D7E10 /* CreateWalletViewModel.swift in Sources */,
+				18B4681628818B5E006D7E10 /* WalletHeaderView.swift in Sources */,
+				18B467FF28818B5E006D7E10 /* CreateWalletCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +956,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		189A889D2880305900B5DDC2 /* XCRemoteSwiftPackageReference "Solana" */ = {
+		18B4682228818B83006D7E10 /* XCRemoteSwiftPackageReference "Solana" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ajamaica/Solana.Swift";
 			requirement = {
@@ -459,9 +967,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		189A889E2880305900B5DDC2 /* Solana */ = {
+		18B4682328818B83006D7E10 /* Solana */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 189A889D2880305900B5DDC2 /* XCRemoteSwiftPackageReference "Solana" */;
+			package = 18B4682228818B83006D7E10 /* XCRemoteSwiftPackageReference "Solana" */;
 			productName = Solana;
 		};
 /* End XCSwiftPackageProductDependency section */

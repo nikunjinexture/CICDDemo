@@ -34,3 +34,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+// MARK: -Solana Setup
+
+class AppComponent {
+    let solanaModule: SolanaModule
+    init(solanaModule: SolanaModule) {
+        self.solanaModule = solanaModule
+    }
+}
