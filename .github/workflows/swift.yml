@@ -9,23 +9,28 @@ jobs:
         name: Upload iOS Application # Job Name
         runs-on: macos-latest # runs on remote mac. To run in local machine set up in the repo > Settings > Actions > Runner > Add New runner.
         steps:
-        
-              # clones the repo from the github
-            - name: "Checkout iOS Repository"
-              uses: actions/checkout@v1
+          - uses: actions/checkout@v1
+          - name: Force Xcode 13.3.1
+            run: sudo xcode-select -switch /Applications/Xcode.app
+      
 
-              # mention the Xcode version to be used && prints the version of xcode and xcodebuild. To run in local replace the Xcode version with xcode you have in machine.
-            - name: "Use XCode 13"
-              run: sudo xcode-select -switch /Applications/Xcode.app && /usr/bin/xcodebuild -version
-             
+          - name: "Install Dependencies"
+            run: pod install
+      
+          - name: Run tests
+            run: xcodebuild clean build -workspace "uMoon.xcworkspace" -scheme "uMoon" -destination "platform=iOS Simulator,name=iPhone 13 Pro,OS=latest"
+          - name: Build App
+            run: xcodebuild -workspace "uMoon.xcworkspace" -scheme "uMoon" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
+
+              
             # creates keychain and
-            - name: "Install the Apple certificate and provisioning profile"
-              env:
+          - name: "Install the Apple certificate and provisioning profile"
+            env:
                 BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
                 P12_PASSWORD: ${{ secrets.IOS_KEYS }}
                 BUILD_PROVISION_PROFILE_BASE64: ${{ secrets.BUILD_PROD_PROVISION_PROFILE_BASE64 }}
                 KEYCHAIN_PASSWORD: ${{ secrets.IOS_KEYCHAIN_PASSWORD }}
-              run: |
+            run: |
                 CERTIFICATE_PATH=$RUNNER_TEMP/build_certificate.p12
                 PP_PATH=$RUNNER_TEMP/unimoon_dev.mobileprovision
                 KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
@@ -53,8 +58,8 @@ jobs:
        
           
               # archives the application. Inputs are provided like scheme, configuration, archive path. Creates .xcarchive
-            - name: "Build archive"
-              run: |
+          - name: "Build archive"
+            run: |
                 xcodebuild -workspace CICDDemo.xcworkspace \
                 -allowProvisioningUpdates \
                 -scheme CICDDemo \
@@ -63,8 +68,8 @@ jobs:
                 clean archive
                 
             # exports the application and creates an .ipa. exportOptionsPlist contains the properties needed for uploading ipa
-            - name: "Export Archive"
-              run: |
+          - name: "Export Archive"
+            run: |
                 xcodebuild -exportArchive \
                 -allowProvisioningUpdates \
                 -archivePath build/CICDDemo.xcarchive \
