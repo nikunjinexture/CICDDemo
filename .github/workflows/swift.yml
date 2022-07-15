@@ -64,7 +64,7 @@ jobs:
                 -allowProvisioningUpdates \
                 -scheme CICDDemo \
                 -configuration AppStore \
-                -archivePath $PWD/build/CICDDemo.xcarchive \
+                -archivePath ../builds/CICDDemo.xcarchive \
                 clean archive
                 
             # exports the application and creates an .ipa. exportOptionsPlist contains the properties needed for uploading ipa
@@ -72,6 +72,6 @@ jobs:
             run: |
                 xcodebuild -exportArchive \
                 -allowProvisioningUpdates \
-                -archivePath build/CICDDemo.xcarchive \
+                -archivePath ../builds/CICDDemo.xcarchive \
                 -exportOptionsPlist CICDDemo/Info.plist \
                 -exportPath build/ipa 
