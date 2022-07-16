@@ -880,7 +880,13 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 83DU8E7GTZ;
-				EXCLUDED_SOURCE_FILE_NAMES = "${SRCROOT}/CICDDemo/SolanaCustomClasses";
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/SeedPhraseGenerator/SeedPhraseGenerator.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/SolanaModule/SolanaModule.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/KeychainAccountStorage/KeychainStorageData.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/Wallet/UI/WalletCell/WalletTableViewCell.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/Wallet/ViewModel/WalletViewModel.swift",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CICDDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -912,7 +918,13 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 83DU8E7GTZ;
-				EXCLUDED_SOURCE_FILE_NAMES = "${SRCROOT}/CICDDemo/SolanaCustomClasses";
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/SeedPhraseGenerator/SeedPhraseGenerator.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/SolanaModule/SolanaModule.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/KeychainAccountStorage/KeychainStorageData.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/Wallet/UI/WalletCell/WalletTableViewCell.swift",
+					"${SRCROOT}/CICDDemo/SolanaCustomClasses/Wallet/ViewModel/WalletViewModel.swift",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CICDDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
