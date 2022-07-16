@@ -880,6 +880,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 83DU8E7GTZ;
+				EXCLUDED_SOURCE_FILE_NAMES = "${SRCROOT}/CICDDemo/SolanaCustomClasses";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CICDDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -911,6 +912,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 83DU8E7GTZ;
+				EXCLUDED_SOURCE_FILE_NAMES = "${SRCROOT}/CICDDemo/SolanaCustomClasses";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CICDDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
